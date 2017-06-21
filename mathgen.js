@@ -15,7 +15,7 @@
     } else if (typeof exports === 'object') {
         module.exports = factory();
     } else {
-        root.numToText = factory();
+        root.mathgen = factory();
     }
 }(this, function() {
     /**
