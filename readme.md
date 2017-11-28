@@ -7,8 +7,32 @@ API:
 2. getAnswer(example)
 3. getOperator(operators)
 
-Методы:
--------
+Подключение:
+------------
+* В `node.js`:
+
+```
+const mathgen = require("path/to/mathgen.js");
+console.log(mathgen.getExample("+", 10)); 
+```
+
+* В `requireJS`:
+```
+require(["mathgen"], function(mathgen){
+    alert(mathgen.getExample("+", 10));
+});
+```
+* В `HTML`:
+```
+<script src="mathgen.js"></script>
+...
+<script>
+    alert(mathgen.getExample("+", 10));
+</script>
+```
+
+Описание методов:
+-----------------
 
 ### getExample(operator, maxNumber)
 
