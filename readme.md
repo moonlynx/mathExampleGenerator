@@ -11,19 +11,19 @@ API:
 ------------
 * В `node.js`:
 
-```
+```js
 const mathgen = require("path/to/mathgen.js");
 console.log(mathgen.getExample("+", 10)); 
 ```
 
 * В `requireJS`:
-```
+```js
 require(["mathgen"], function(mathgen){
     alert(mathgen.getExample("+", 10));
 });
 ```
 * В `HTML`:
-```
+```html
 <script src="mathgen.js"></script>
 ...
 <script>
