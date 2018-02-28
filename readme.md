@@ -38,7 +38,7 @@ require(["mathgen"], function(mathgen){
 
 #### Аргументы:
 
-1. **operator** - строка, содержащая оператор сложения(+), вычитания(-), умножкния(*), деления(/)
+1. **operator** - строка, содержащая оператор сложения(+), вычитания(-), умножения(*), деления(/)
 2. **maxNumber** - максимально возможное число в примере (от 1 до maxNumber включительно)
 
 #### Вывод:
@@ -49,7 +49,7 @@ getExample("+", 10) --> "3 + 7" (могут быть любые числа от 
 
 #### Ошибки:
 1. **"getExample function must have 2 arguments"**
-   Не передан хотя бы один аргумент
+   Функции должно быть передано 2 аргумента
 2. **"First argument of getExample function must be string"**
    Первый аргумент не строка
 3. **"Second argument of getExample function must be number"**
